@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.431" height="30.979" viewBox="0 0 40.431 30.979">
+  <defs>
+    <filter id="chevron-circle-down-solid" x="0" y="0" width="40.431" height="30.979" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.271"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#chevron-circle-down-solid)">
+    <path id="chevron-circle-down-solid-2" data-name="chevron-circle-down-solid" d="M14.07,15.417l10.8-10.8a1.9,1.9,0,0,0,0-2.7L23.514.562a1.9,1.9,0,0,0-2.7,0l-8.1,8.1-8.1-8.1a1.9,1.9,0,0,0-2.7,0L.562,1.917a1.9,1.9,0,0,0,0,2.7l10.8,10.8A1.914,1.914,0,0,0,14.07,15.417Z" transform="translate(32.93 18.48) rotate(180)" fill="#3b53df"/>
+  </g>
+</svg>
