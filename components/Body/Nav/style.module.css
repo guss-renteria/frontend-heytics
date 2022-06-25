@@ -1,0 +1,46 @@
+.nav {
+  position: sticky;
+  left: 0;
+  top: 6rem;
+  z-index: 99;
+  padding: 1rem 2rem;
+
+  overflow-y: hidden;
+  overflow-x: auto;
+
+  background: white;
+  box-shadow: 0 .2rem 1rem #00000020;
+  display: flex;
+  gap: 1rem;
+}
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav__item {
+  padding: .8rem 2.8rem;
+  background: #ebf6f7;
+  border-radius: .8rem;
+
+  cursor: pointer;
+  color: #484ede;
+  font-size: 1.4rem;
+
+  transition: .1s ease-in-out;
+}
+.nav__item:hover {
+  background: #4046dd;
+  color: white;
+}
+
+.nav__front {
+  width: 100%;
+  height: 16rem;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+
+  background: white;
+  border: none;
+  box-shadow: none;
+}

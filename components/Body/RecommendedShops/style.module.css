@@ -1,0 +1,133 @@
+.recommended_shops {
+  padding-top: 12.8rem;
+
+  color: #202E50;
+}
+
+.recommended_shops__h1 {
+  width: 90%;
+  margin: auto;
+  font-size: 2.4rem;
+}
+.recommended_shops__h1__span {
+  color: #395AE1;
+}
+.recommended_shops__p {
+  width: 90%;
+  margin: auto;
+  color: #202E50;
+  font-size: 1.2rem;
+}
+
+.recommended_shops__container {
+  margin-top: 1.6rem;
+  background: #E9F5F3;
+  
+  display: grid;
+  place-items: center;
+
+  position: relative;
+}
+.slide_img {
+  position: absolute;
+  bottom: 2rem;
+}
+.slide_img > img {
+  width: 2rem;
+
+  object-fit: cover;
+}
+.slide_img > p {
+  text-align: center;
+}
+
+.card_container {
+  width: 100%;
+  display: flex;
+  padding: 4rem 3rem 8rem;
+  gap: 3rem;
+
+  overflow-y: hidden;
+  overflow-x: auto;
+
+  z-index: 10;
+  position: relative;
+}
+.card_container::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 32rem;
+  flex-shrink: 0;
+  padding: 1.2rem;
+
+  background: white;
+  border-radius: 2.8rem;
+  box-shadow: 0 .4rem 1rem #00000020;
+}
+.card_img__container {
+  width: 100%;
+  height: 10rem;
+  border-radius: 2rem;
+
+  position: relative;
+  background: #ccc;
+}
+.card_img__starts {
+  padding: .4rem .8rem;
+  border-radius: .4rem;
+
+  display: flex;
+  gap: .2rem;
+  place-items: center;
+  background: #2d3e8e;
+
+
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+
+  color: white;
+  font-size: 1.2rem;
+}
+.card_img__starts > img {
+  width: 1.6rem;
+  object-fit: cover;
+}
+
+.card_data {
+  padding: 0 1rem 1rem;
+  margin-top: 2rem;
+  overflow: hidden;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.card_data__logo {
+  width: 5rem;
+  height: 5rem;
+
+  border-radius: 100%;
+  box-shadow: 0 .6rem 1rem #00000040;
+
+  background: #222;
+}
+.info_name {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.info_timetable {
+  margin-top: 1rem;
+  display: flex;
+  gap: .4rem;
+  place-items: center;
+
+  font-size: 1.2rem;
+}
+.info_timetable__img {
+  width: 1rem;
+  display: block;
+  object-fit: cover;
+}

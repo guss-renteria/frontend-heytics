@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
 
         font-family: Arial;
         box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
       }
 
       html {

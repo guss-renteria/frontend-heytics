@@ -4,6 +4,7 @@ import style from '../styles/home.module.css'
 
 import Header from '../components/Header'
 import Top from '../components/Top'
+import Body from '../components/Body'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <main className={ style.home }>
         <Header />
         <Top />
+        <Body />
      </main>
     </div>
   )

@@ -1,0 +1,13 @@
+.greeting {
+  width: 90%;
+  margin: auto;
+  margin-top: 6rem;
+}
+.greeting__h1 {
+  font-size: 3.2rem;
+  color: white;
+}
+.greeting__p {
+  font-size: 2.2rem;
+  color: #c7e70a;
+}
