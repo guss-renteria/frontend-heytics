@@ -14,6 +14,7 @@ function MyApp({ Component, pageProps }) {
 
       html {
         font-size: .625rem;
+        scroll-behavior: smooth;
       }
     `}
     </style>

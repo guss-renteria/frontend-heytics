@@ -5,6 +5,7 @@ import style from '../styles/home.module.css'
 import Header from '../components/Header'
 import Top from '../components/Top'
 import Body from '../components/Body'
+import FloatingButton from '../components/FloatingButton'
 
 export default function Home() {
   return (
@@ -15,10 +16,11 @@ export default function Home() {
         <link rel='icon' href='/images/ICON/deliver.svg' />
       </Head>
 
-      <main className={ style.home }>
+      <main id='root' className={ style.home }>
         <Header />
         <Top />
         <Body />
+        <FloatingButton />
      </main>
     </div>
   )
