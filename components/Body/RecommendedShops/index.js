@@ -1,5 +1,6 @@
 import style from './style.module.css'
 
+// TODO: cambiar para recibir por props
 const data = [
   {
     name: 'Guarumo beer pub',

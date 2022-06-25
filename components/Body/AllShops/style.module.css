@@ -1,0 +1,114 @@
+.all_shops {
+  padding-top: 6rem;
+}
+.all_shops > h2 {
+  width: 90%;
+  margin: auto;
+
+  color: #202e50;
+  font-size: 2.4rem;
+}
+.all_shops > p {
+  width: 90%;
+  margin: auto;
+
+  color: #3C4C92;
+  font-size: 1.2rem;
+}
+
+.card_container {
+  margin-top: 4rem;
+  background: #e9f5f3;
+  padding: 1.8rem 0;
+
+  display: grid;
+  gap: 1.8rem;
+}
+
+.card {
+  padding: 1.8rem;
+  background: white;
+
+  position: relative;
+  display: flex;
+  gap: 1.8rem;
+}
+.card_img {
+  flex-shrink: 0;
+  width: 14rem;
+  height: 14rem;
+  background: #ccc;
+  border-radius: 2rem;
+}
+.card_info {
+  flex: 1;
+  padding: 1.8rem 0;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.card_timetable {
+  font-size: 1.2rem;
+}
+.card_timetable__res {
+  font-size: 1.1rem;
+  opacity: .6;
+}
+.card_timetable__close {
+  color: red;
+}
+
+.card_name {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.sales_models {
+  width: 80%;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.shipping_price,
+.arrival_time {
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+
+  color: #3C4C92;
+  font-size: 1.2rem;
+}
+.shipping_price > img {
+  width: 2.4rem;
+  display: block;
+  object-fit: cover;
+}
+.arrival_time > img {
+  width: 2rem;
+  display: block;
+  object-fit: cover;
+}
+
+.starts {
+  padding: .4rem .4rem;
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+
+  background: #4240dc;
+  border-radius: .4rem;
+
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  color: white;
+}
+.starts > img {
+  width: 1.2rem;
+  object-fit: cover;
+}
