@@ -42,7 +42,7 @@ export default function Header() {
       />
 
       <div className={ style.header_back } ref={ header_back_ref }>
-        <button className='enviar-a' className={ style.button_send_to }>
+        <button className={ style.button_send_to }>
           <img
             src='/images/ICON/Enviar a.svg'
             alt='enviar a'
