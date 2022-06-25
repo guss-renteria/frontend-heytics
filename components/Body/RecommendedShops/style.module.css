@@ -31,6 +31,9 @@
 .slide_img {
   position: absolute;
   bottom: 2rem;
+
+  display: grid;
+  place-items: center;
 }
 .slide_img > img {
   width: 2rem;
@@ -38,6 +41,7 @@
   object-fit: cover;
 }
 .slide_img > p {
+  color: #3C4C92;
   text-align: center;
 }
 
