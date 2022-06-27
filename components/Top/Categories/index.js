@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import style from './style.module.css'
 
 export default function Top() {

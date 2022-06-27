@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 import style from './style.module.css'
 
@@ -29,13 +30,18 @@ export default function Header() {
 
   return (
     <header className={ style.header } ref={ header_ref }>
-      <img
+      <Image
+        width={20}
+        height={20}
         src='/images/ICON/Icon awesome-arrow-left.svg'
         alt='button back'
         className={ style.img_button_back }
       />
 
-      <img
+      <Image
+        width={100}
+        height={36}
+        layout='fixed'
         alt='logo'
         src='/images/LOGO GODELIVER.svg'
         className={ style.img_logo }
@@ -43,7 +49,9 @@ export default function Header() {
 
       <div className={ style.header_back } ref={ header_back_ref }>
         <button className={ style.button_send_to }>
-          <img
+          <Image
+            width={14}
+            height={14}
             src='/images/ICON/Enviar a.svg'
             alt='enviar a'
             className={ style.img_send_to }

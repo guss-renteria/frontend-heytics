@@ -31,10 +31,8 @@
 .img_send_to {
   display: block;
   object-fit: cover;
-  width: 1.6rem;
 }
 .img_send_to_arrow {
   display: block;
   object-fit: cover;
-  width: 1.2rem;
 }

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import style from './style.module.css'
 
 // TODO: cambiar para recibir por props
@@ -44,8 +45,8 @@ export default function AllShops() {
 
       <div className={ style.card_container }>
         {
-          data.map( elem => (
-            <div className={ style.card }>
+          data.map( ( elem, key ) => (
+            <div className={ style.card } key={ key }>
               <div className={ style.card_img }></div>
               <div className={ style.card_info }>
                 <div className={ style.card_timetable }>
